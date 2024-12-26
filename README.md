@@ -6,7 +6,7 @@
 ## I'm a Developer, Student, and Tech Enthusiast!
 
 ### About Me 🚀
-- 🎓 Currently pursuing Computer Systems and Network Engineering at SUIT
+- 🎓 Currently pursuing Computer Systems and Network Engineering at SLITT City University
 - 💻 Passionate about Web Development, System Programming, and Cybersecurity
 - 🌱 Always learning and exploring new technologies
 - 👯 Looking to collaborate on open-source projects and innovative web applications
@@ -58,7 +58,4 @@ JavaScript   12 hrs 40 mins  ███████████░░░░░░
 Python       8 hrs 35 mins   ██████░░░░░░░░░░░  30.6%
 HTML/CSS     4 hrs 15 mins   ███░░░░░░░░░░░░░░  15.1%
 Other        2 hrs 32 mins   ██░░░░░░░░░░░░░░░   9.1%
-```
 
----
-⭐️ From [yourusername](https://github.com/yourusername)
