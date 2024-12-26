@@ -7,7 +7,7 @@
 - 💻 Passionate about Web Development, System Programming, and Cybersecurity
 - 🌱 Always learning and exploring new technologies
 - 👯 Looking to collaborate on open-source projects and innovative web applications
-- 🥅 2024 Goals: Contribute more to Open Source projects
+- 🥅 2025 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love coding and exploring Linux systems
 
 ### Languages and Tools 🛠
