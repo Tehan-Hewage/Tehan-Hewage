@@ -1,7 +1,4 @@
-# Hi there, I'm [Your Name] 👋
-
-[![Website](https://img.shields.io/website?label=Portfolio&style=for-the-badge&url=https://your-website.com)](https://your-website.com)
-[![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?screen_name=yourusername)
+# Hi there, I'm Tehan 👋
 
 ## I'm a Developer, Student, and Tech Enthusiast!
 
@@ -27,7 +24,7 @@
 ### GitHub Stats 📊
 
 <div align="center">
-  <img alt="Your GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true"/>
+  <img alt="Tehan's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true"/>
   <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true"/>
 </div>
 
@@ -38,16 +35,13 @@
 
 ### Connect with me 🤝
 <p align="left">
-  <a href="https://linkedin.com/in/yourusername" target="_blank">
+  <a href="https://linkedin.com/in/tehan-hewage-453a63241/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
   </a>
-  <a href="https://twitter.com/yourusername" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter"/>
-  </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:tehanhewage25@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/>
   </a>
-  <a href="https://instagram.com/yourusername" target="_blank">
+  <a href="https://instagram.com/_.tehnz._/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram"/>
   </a>
 </p>
@@ -59,3 +53,5 @@ Python       8 hrs 35 mins   ██████░░░░░░░░░░░
 HTML/CSS     4 hrs 15 mins   ███░░░░░░░░░░░░░░  15.1%
 Other        2 hrs 32 mins   ██░░░░░░░░░░░░░░░   9.1%
 
+---
+⭐️ From [yourusername](https://github.com/yourusername)
