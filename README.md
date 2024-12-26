@@ -52,6 +52,7 @@ JavaScript   12 hrs 40 mins  ███████████░░░░░░
 Python       8 hrs 35 mins   ██████░░░░░░░░░░░  30.6%
 HTML/CSS     4 hrs 15 mins   ███░░░░░░░░░░░░░░  15.1%
 Other        2 hrs 32 mins   ██░░░░░░░░░░░░░░░   9.1%
+```
 
 ---
 ⭐️ From [yourusername](https://github.com/yourusername)
