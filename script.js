@@ -199,69 +199,129 @@ document.querySelectorAll('.project-image-main').forEach((img) => {
   });
 });
 
-// Project card click handler
-const projectCard = document.getElementById('project-card');
+// Project card click handler - handles multiple project cards
+const projectCards = document.querySelectorAll('.project-card-modern[data-project]');
 const projectModal = document.getElementById('project-modal');
 const closeModal = document.getElementById('close-modal');
 const modalContent = document.getElementById('modal-content');
 
-if (projectCard && projectModal) {
-  projectCard.addEventListener('click', (e) => {
-    // Don't trigger if clicking on links
-    if (e.target.tagName === 'A') return;
-    
-    projectModal.classList.remove('hidden');
-    projectModal.classList.add('flex');
-    
-    // Populate modal content
-    modalContent.innerHTML = `
-      <div class="space-y-6">
-        <h2 class="text-4xl font-bold text-cyan-400 mb-4">Featured Project</h2>
-        <div class="modal-image-container mb-6">
-          <img src="images/1.png" alt="Project Screenshot" class="modal-image" />
-          <div class="modal-image-overlay"></div>
+// Project data mapping
+const projectData = {
+  bananamath: {
+    title: "BananaMath Adventure",
+    category: "Web Game",
+    image: "images/bananamath.png",
+    description: "Browser-based math puzzle/adventure game with progressive levels, boss stages, and multiple game modes. Features daily puzzles, coins currency with power-up shop, 20 achievement badges, level goals, and retry mechanics. Includes global leaderboards and user profiles backed by Firebase.",
+    features: [
+      "Progressive levels & boss stages",
+      "Normal/Quick Play/Practice modes",
+      "Daily puzzles & coins currency",
+      "20 achievement badges",
+      "Global leaderboards",
+      "Firebase Auth & Firestore integration",
+      "Themed UI (Jungle/Ocean/Candy)",
+      "Dark mode support",
+      "Responsive design with smooth animations"
+    ],
+    technologies: ["HTML", "CSS", "JavaScript", "Tailwind", "Firebase Auth", "Firestore"]
+  },
+  rainforest: {
+    title: "RainForest Tea",
+    category: "Desktop App",
+    image: "images/rainforest.jpeg",
+    description: "All-in-one tea management system for products, orders, inventory, suppliers, customers, and equipment maintenance with full CRUD operations. Features MySQL data model with validation, JavaFX UI with styled tables/forms, and email notifications for low stock and maintenance reminders.",
+    features: [
+      "Full CRUD operations",
+      "Products, orders & inventory management",
+      "Supplier & customer management",
+      "Equipment maintenance tracking",
+      "MySQL data validation",
+      "Email notifications for low stock",
+      "Maintenance reminders",
+      "JavaFX styled UI with tables/forms"
+    ],
+    technologies: ["Java", "JavaFX", "MySQL", "CSS", "IntelliJ IDEA"]
+  },
+  quiz: {
+    title: "Quiz App",
+    category: "Android App",
+    image: "images/quiz app.jpg",
+    description: "Trivia app that fetches questions from a remote API and renders them in a clean Android UI. Features scoring/answer validation, end-of-quiz summary, and Firebase integration for authentication and score storage.",
+    features: [
+      "REST API integration",
+      "Question fetching from remote API",
+      "Scoring & answer validation",
+      "End-of-quiz summary",
+      "Firebase authentication",
+      "Score storage",
+      "Clean Android UI"
+    ],
+    technologies: ["Java", "REST APIs", "Firebase", "Android Studio"]
+  }
+};
+
+// Function to open modal with project data
+function openProjectModal(projectId) {
+  const project = projectData[projectId];
+  if (!project) return;
+  
+  projectModal.classList.remove('hidden');
+  projectModal.classList.add('flex');
+  
+  // Populate modal content
+  const featuresList = project.features.map(feature => 
+    `<li>${feature}</li>`
+  ).join('');
+  
+  const techTags = project.technologies.map(tech => 
+    `<span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-lg">${tech}</span>`
+  ).join('');
+  
+  modalContent.innerHTML = `
+    <div class="space-y-6">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-4xl font-bold text-cyan-400">${project.title}</h2>
+        <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">${project.category}</span>
+      </div>
+      <div class="modal-image-container mb-6">
+        <img src="${project.image}" alt="${project.title}" class="modal-image" />
+        <div class="modal-image-overlay"></div>
+      </div>
+      <div class="space-y-4">
+        <p class="text-gray-300 leading-relaxed">
+          ${project.description}
+        </p>
+        <div>
+          <h3 class="text-xl font-semibold text-cyan-400 mb-3">Key Features</h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-300">
+            ${featuresList}
+          </ul>
         </div>
-        <div class="space-y-4">
-          <p class="text-gray-300 leading-relaxed">
-            A clean and user-friendly software application built with modern technologies. This project 
-            demonstrates my passion for creating meaningful digital experiences, focusing on clean code, 
-            intuitive design, and reliable functionality.
-          </p>
-          <div>
-            <h3 class="text-xl font-semibold text-cyan-400 mb-3">Key Features</h3>
-            <ul class="list-disc list-inside space-y-2 text-gray-300">
-              <li>Clean and intuitive user interface</li>
-              <li>User-friendly design and experience</li>
-              <li>Reliable and efficient functionality</li>
-              <li>Well-structured and maintainable code</li>
-              <li>Modern software design principles</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="text-xl font-semibold text-cyan-400 mb-3">Technologies Used</h3>
-            <div class="flex flex-wrap gap-3">
-              <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-lg">Java</span>
-              <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-lg">JavaScript</span>
-              <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-lg">HTML/CSS</span>
-              <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-lg">UI/UX Design</span>
-              <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-lg">SQL</span>
-            </div>
-          </div>
-          <div class="flex gap-4 pt-4">
-            <a href="#" class="px-6 py-2 bg-cyan-500 text-black font-semibold rounded-lg hover:bg-cyan-400 transition-all">
-              View Live Demo
-            </a>
-            <a href="#" class="px-6 py-2 border border-cyan-500 text-cyan-400 font-semibold rounded-lg hover:bg-cyan-500/10 transition-all">
-              View Source Code
-            </a>
+        <div>
+          <h3 class="text-xl font-semibold text-cyan-400 mb-3">Technologies Used</h3>
+          <div class="flex flex-wrap gap-3">
+            ${techTags}
           </div>
         </div>
       </div>
-    `;
-    
-    document.body.style.overflow = 'hidden';
-  });
+    </div>
+  `;
+  
+  document.body.style.overflow = 'hidden';
 }
+
+// Add click handlers to all project cards
+projectCards.forEach(card => {
+  card.addEventListener('click', (e) => {
+    // Don't trigger if clicking on links
+    if (e.target.tagName === 'A' || e.target.closest('a')) return;
+    
+    const projectId = card.getAttribute('data-project');
+    if (projectId) {
+      openProjectModal(projectId);
+    }
+  });
+});
 
 if (closeModal && projectModal) {
   closeModal.addEventListener('click', () => {
@@ -450,4 +510,90 @@ window.addEventListener('scroll', () => {
     }
   }
 });
+
+// ========== ANIMATED COUNTERS ==========
+function animateCounter(element, target, duration = 2000) {
+  if (typeof target === 'string') {
+    // For text values, just set them directly with a fade-in effect
+    element.style.opacity = '0';
+    element.style.transform = 'translateY(20px)';
+    setTimeout(() => {
+      element.textContent = target;
+      element.style.transition = 'all 0.5s ease';
+      element.style.opacity = '1';
+      element.style.transform = 'translateY(0)';
+    }, 100);
+    return;
+  }
+  
+  const start = 0;
+  const increment = target / (duration / 16); // 60fps
+  let current = start;
+  
+  const updateCounter = () => {
+    current += increment;
+    if (current < target) {
+      const displayValue = Math.floor(current);
+      element.textContent = displayValue + '%';
+      requestAnimationFrame(updateCounter);
+    } else {
+      element.textContent = target + '%';
+    }
+  };
+  
+  updateCounter();
+}
+
+// Observe stats for animation
+const statsObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const statElement = entry.target.querySelector('[data-target]');
+      if (statElement && !statElement.classList.contains('animated')) {
+        statElement.classList.add('animated');
+        const target = statElement.getAttribute('data-target');
+        if (target === 'Student' || target === 'AI') {
+          animateCounter(statElement, target, 1500);
+        } else {
+          animateCounter(statElement, parseInt(target), 2000);
+        }
+      }
+    }
+  });
+}, {
+  threshold: 0.5
+});
+
+// Observe all stat items
+document.querySelectorAll('.stat-item').forEach(stat => {
+  statsObserver.observe(stat);
+});
+
+// ========== ACTIVE NAVIGATION LINK HIGHLIGHTING ==========
+const navLinks = document.querySelectorAll('.nav-link');
+const sections = document.querySelectorAll('section[id]');
+
+function highlightActiveNav() {
+  const scrollY = window.pageYOffset;
+  
+  sections.forEach(section => {
+    const sectionHeight = section.offsetHeight;
+    const sectionTop = section.offsetTop - 100;
+    const sectionId = section.getAttribute('id');
+    
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+      navLinks.forEach(link => {
+        link.classList.remove('text-cyan-400');
+        link.classList.add('text-gray-400');
+        if (link.getAttribute('href') === `#${sectionId}`) {
+          link.classList.remove('text-gray-400');
+          link.classList.add('text-cyan-400');
+        }
+      });
+    }
+  });
+}
+
+window.addEventListener('scroll', highlightActiveNav);
+highlightActiveNav(); // Initial call
 
