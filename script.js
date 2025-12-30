@@ -210,7 +210,7 @@ const projectData = {
   gsmarena: {
     title: "GSMArena Explorer",
     category: "Full Stack",
-    image: "images/portfolio.png",
+    image: "images/gsmarena.png",
     description: "React/Tailwind interface for browsing GSMArena brands, devices, specs, and comparisons backed by a lightweight Express scraper API that fetches GSMArena HTML directly.",
     demo: "https://gsamarena-data-scrapper.netlify.app/",
     features: [
@@ -228,7 +228,7 @@ const projectData = {
   opsel: {
     title: "Opsel Mobile City",
     category: "Frontend Prototype",
-    image: "images/mockup.png",
+    image: "images/opsel.png",
     description: "High-fidelity e-commerce prototype for a premium mobile phone retail store with glassmorphism UI, micro-interactions, and a complete page set.",
     demo: "https://opselmobilecity.netlify.app/",
     features: [
