@@ -207,11 +207,48 @@ const modalContent = document.getElementById('modal-content');
 
 // Project data mapping
 const projectData = {
+  gsmarena: {
+    title: "GSMArena Explorer",
+    category: "Full Stack",
+    image: "images/portfolio.png",
+    description: "React/Tailwind interface for browsing GSMArena brands, devices, specs, and comparisons backed by a lightweight Express scraper API that fetches GSMArena HTML directly.",
+    demo: "https://gsamarena-data-scrapper.netlify.app/",
+    features: [
+      "Vite + React UI with Tailwind styling",
+      "Express scraper API using Cheerio (no third-party APIs)",
+      "Brands listing with GSMArena pagination",
+      "Device catalog per brand with paging",
+      "Device detail pages with specs and gallery",
+      "Device comparison support",
+      "In-memory caching with configurable TTL",
+      "Configurable API base via VITE_API_BASE"
+    ],
+    technologies: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "Cheerio", "Scraper API"]
+  },
+  opsel: {
+    title: "Opsel Mobile City",
+    category: "Frontend Prototype",
+    image: "images/mockup.png",
+    description: "High-fidelity e-commerce prototype for a premium mobile phone retail store with glassmorphism UI, micro-interactions, and a complete page set.",
+    demo: "https://opselmobilecity.netlify.app/",
+    features: [
+      "Filterable, sortable product grid with load-more pagination",
+      "Product detail pages with galleries, specs tabs, and pricing/discounts",
+      "Home, Shop, Product, Services, About, and Contact pages",
+      "Brand carousel and category navigation",
+      "Scroll-triggered reveals and hover/press micro-interactions",
+      "Glassmorphism styling with custom scrollbar and theme variables",
+      "TypeScript + React Router 7 + Headless UI components",
+      "Lazy loading and Vite-powered performance"
+    ],
+    technologies: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "React Router 7", "Headless UI", "Lucide Icons"]
+  },
   bananamath: {
     title: "BananaMath Adventure",
     category: "Web Game",
     image: "images/bananamath.png",
     description: "Browser-based math puzzle/adventure game with progressive levels, boss stages, and multiple game modes. Features daily puzzles, coins currency with power-up shop, 20 achievement badges, level goals, and retry mechanics. Includes global leaderboards and user profiles backed by Firebase.",
+    demo: "https://bananamath-adventure.netlify.app/",
     features: [
       "Progressive levels & boss stages",
       "Normal/Quick Play/Practice modes",
@@ -267,6 +304,11 @@ function openProjectModal(projectId) {
   
   projectModal.classList.remove('hidden');
   projectModal.classList.add('flex');
+
+  const actionButtons = [
+    project.demo ? `<a href="${project.demo}" target="_blank" class="px-4 py-2 text-sm font-semibold text-black bg-gradient-to-r from-cyan-400 to-cyan-500 rounded-lg shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 transition-all inline-flex items-center gap-2">Live Demo <i class="fas fa-external-link-alt text-xs"></i></a>` : "",
+    project.code ? `<a href="${project.code}" target="_blank" class="px-4 py-2 text-sm font-semibold text-cyan-400 border border-cyan-500/40 rounded-lg hover:bg-cyan-500/10 transition-all inline-flex items-center gap-2">Source Code <i class="fas fa-code text-xs"></i></a>` : ""
+  ].filter(Boolean).join("");
   
   // Populate modal content
   const featuresList = project.features.map(feature => 
@@ -303,6 +345,7 @@ function openProjectModal(projectId) {
             ${techTags}
           </div>
         </div>
+        ${actionButtons ? `<div class="flex flex-wrap gap-3 pt-2">${actionButtons}</div>` : ""}
       </div>
     </div>
   `;
