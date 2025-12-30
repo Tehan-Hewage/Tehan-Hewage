@@ -813,3 +813,40 @@ a[href^="#"]:not(.nav-link):hover::before {
 .stat-item .text-3xl {
   transition: all 0.3s ease;
 }
+
+/* Seasonal Snow Effect */
+#snow-container {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.snowflake {
+  position: absolute;
+  top: -12px;
+  background-image: url("images/yourflake.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 9999px;
+  animation: snow-fall 12s linear infinite;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.45));
+}
+
+@keyframes snow-fall {
+  0% {
+    transform: translate3d(0, -10vh, 0) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  50% {
+    transform: translate3d(var(--sway, 15px), 50vh, 0) rotate(180deg);
+  }
+  100% {
+    transform: translate3d(calc(var(--sway, 15px) * -1), 110vh, 0) rotate(360deg);
+    opacity: 0;
+  }
+}

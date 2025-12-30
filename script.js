@@ -162,6 +162,49 @@ if (canvas) {
   });
 }
 
+// ========== SEASONAL SNOW EFFECT (Dec + early Jan) ==========
+let snowInitialized = false;
+
+function isHolidaySeason(date = new Date()) {
+  const month = date.getMonth(); // 0 = Jan, 11 = Dec
+  const day = date.getDate();
+  return month === 11 || (month === 0 && day <= 7);
+}
+
+function initSnowEffect() {
+  if (snowInitialized || !document.body) return;
+  snowInitialized = true;
+
+  const snowContainer = document.createElement('div');
+  snowContainer.id = 'snow-container';
+  document.body.appendChild(snowContainer);
+
+  const flakeCount = window.innerWidth < 768 ? 40 : 80;
+  for (let i = 0; i < flakeCount; i++) {
+    const flake = document.createElement('span');
+    flake.className = 'snowflake';
+
+    const size = (Math.random() * 8 + 8).toFixed(2); // Larger for photo flakes
+    const left = Math.random() * 100;
+    const duration = (Math.random() * 6 + 8).toFixed(2);
+    const delay = (Math.random() * -duration).toFixed(2);
+    const sway = (Math.random() * 40 + 10).toFixed(0);
+
+    flake.style.width = `${size}px`;
+    flake.style.height = `${size}px`;
+    flake.style.left = `${left}vw`;
+    flake.style.setProperty('--sway', `${Math.random() > 0.5 ? '' : '-'}${sway}px`);
+    flake.style.animation = `snow-fall ${duration}s linear ${delay}s infinite`;
+    flake.style.opacity = (Math.random() * 0.3 + 0.6).toFixed(2);
+
+    snowContainer.appendChild(flake);
+  }
+}
+
+if (isHolidaySeason()) {
+  initSnowEffect();
+}
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
