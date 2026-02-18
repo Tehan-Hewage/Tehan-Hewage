@@ -250,6 +250,23 @@ const modalContent = document.getElementById('modal-content');
 
 // Project data mapping
 const projectData = {
+  whatsappbot: {
+    title: "Multi-Agent WhatsApp Bot Assistant",
+    category: "Ongoing Project",
+    image: "images/whatsapp-bot.svg",
+    description: "Ongoing research and development project for SLIIT City University to automate student support through a multi-agent WhatsApp assistant. The system detects user intent and routes each query to the most relevant specialist agent.",
+    features: [
+      "Purpose classification and routing to expert agents",
+      "Specialist support for Finance, Academic, and Student Affairs",
+      "English-only question and answer knowledge base",
+      "Semantic retrieval with a lightweight NLP pipeline",
+      "WhatsApp Cloud API integration (developer test mode)",
+      "Minimal admin tools for Q&A updates and log review",
+      "Evaluation on routing accuracy, answer accuracy, latency, and student satisfaction",
+      "Target metrics: 85%+ routing accuracy, 90%+ answer accuracy, under 2s average response time"
+    ],
+    technologies: ["Node.js", "Express", "Python", "NLP", "Firebase Firestore", "WhatsApp Cloud API", "Postman"]
+  },
   gsmarena: {
     title: "GSMArena Explorer",
     category: "Full Stack",
