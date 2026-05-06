@@ -127,7 +127,7 @@ I'm **Tehan Hewage**, a developer, student, and tech enthusiast currently pursui
       </a>
     </td>
     <td width="50%" valign="top">
-      <h3>LinkNook</h3>
+      <h3><a href="https://linknook.online/">LinkNook</a></h3>
       <p>A free Linktree-style mini-profile and link website service with customizable public pages.</p>
       <p>Features themes, design editor, dashboard, hero layouts, wallpapers, text controls, button styles, color controls, and preview cards.</p>
       <p>
@@ -136,23 +136,14 @@ I'm **Tehan Hewage**, a developer, student, and tech enthusiast currently pursui
         <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
         <img src="https://img.shields.io/badge/UI%2FUX-0D1117?style=flat-square&logo=figma&logoColor=00E7FF" alt="UI/UX" />
       </p>
-      <img src="https://img.shields.io/badge/Status-In%20Development-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="In development" />
+      <a href="https://linknook.online/">
+        <img src="https://img.shields.io/badge/Live%20Site-linknook.online-00E7FF?style=for-the-badge&logo=vercel&logoColor=0D1117" alt="Visit LinkNook live site" />
+      </a>
+      <img src="https://img.shields.io/badge/Status-Live-00C853?style=for-the-badge&logo=rocket&logoColor=white" alt="Live project" />
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Multilingual Stress-Relief PWA Chatbot</h3>
-      <p>A privacy-focused progressive web app chatbot for stress-relief support and real-time conversation.</p>
-      <p>Features medication reminders, personalized activities, context awareness, multilingual support, and safety-first design.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-        <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA" />
-      </p>
-      <img src="https://img.shields.io/badge/Focus-Privacy%20First-00C853?style=for-the-badge&logo=shield&logoColor=white" alt="Privacy first" />
-    </td>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>Project Direction</h3>
       <p>I build projects that combine practical workflows, clean interfaces, automation, and reliable architecture.</p>
       <p>Current focus areas include full-stack systems, PWA experiences, Linux tooling, cybersecurity learning, and developer-friendly documentation.</p>
