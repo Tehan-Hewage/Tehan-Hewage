@@ -5,7 +5,7 @@
 
   <p>
     <img src="https://img.shields.io/badge/Developer-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=00E7FF&labelColor=0D1117&color=00E7FF" alt="Developer badge" />
-    <img src="https://img.shields.io/badge/Student-SLIIT%20City%20University-7C3AED?style=for-the-badge&logo=academia&logoColor=white&labelColor=0D1117" alt="SLIIT City University badge" />
+    <img src="https://img.shields.io/badge/Student-SCU-7C3AED?style=for-the-badge&logo=academia&logoColor=white&labelColor=0D1117" alt="SCU badge" />
     <img src="https://img.shields.io/badge/Open%20Source-Collaboration-00C853?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Open source collaboration badge" />
   </p>
 
@@ -31,7 +31,7 @@
 
 ## About Me 🚀
 
-I'm **Tehan Hewage**, a developer, student, and tech enthusiast currently pursuing **Computer Systems and Network Engineering at SLIIT City University**. I like building practical software that is clean, responsive, useful, and grounded in real user workflows.
+I'm **Tehan Hewage**, a developer, student, and tech enthusiast currently pursuing **Computer Systems and Network Engineering at SCU**. I like building practical software that is clean, responsive, useful, and grounded in real user workflows.
 
 <table>
   <tr>
