@@ -39,7 +39,7 @@ I'm **Tehan Hewage**, a developer, student, and tech enthusiast currently pursui
       <h3>What I focus on</h3>
       <ul>
         <li>Modern web apps with React, Next.js, TypeScript, and TailwindCSS</li>
-        <li>Backend APIs, automation, dashboards, and data-driven tools</li>
+        <li>Backend APIs, AI integrations, automation, dashboards, and data-driven tools</li>
         <li>Linux, system programming concepts, networking, and cybersecurity</li>
         <li>Open-source projects with clear documentation and practical value</li>
       </ul>
@@ -83,47 +83,19 @@ I'm **Tehan Hewage**, a developer, student, and tech enthusiast currently pursui
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Tehan-Hewage/SL-FARMER">SL-FARMER</a></h3>
-      <p>A modern responsive Sri Lankan produce website for premium farm products including pineapple, ginger, cinnamon, and peppers.</p>
-      <p>Features dark mode, product showcase, availability status, gallery, EmailJS contact form, WhatsApp integration, SEO metadata, sitemap, and an admin dashboard.</p>
+      <h3><a href="https://github.com/Tehan-Hewage/GexaCanvas-AI">GexaCanvas AI</a></h3>
+      <p>A full-stack AI chat and image-generation app built with a premium dark "Gexa Aurora" interface.</p>
+      <p>Features Supabase authentication, saved and pinned chats, Gemini AI replies, Hugging Face image generation, Supabase Storage, markdown responses, loading states, and responsive design.</p>
       <p>
-        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
-        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
-      </p>
-      <a href="https://github.com/Tehan-Hewage/SL-FARMER">
-        <img src="https://img.shields.io/badge/View%20Repository-00E7FF?style=for-the-badge&logo=github&logoColor=0D1117" alt="View SL-FARMER repository" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Tehan-Hewage/Clean_Ops">CleanOPS</a></h3>
-      <p>A cleaning operations management system for HR teams, supervisors, and cleaners.</p>
-      <p>Features role-based dashboards, job scheduling, checklist execution, geofenced clock-in/out, break tracking, supervisor approvals, payroll exports, offline-first PWA support, Firebase Auth, and Firestore.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111" alt="Firebase" />
-      </p>
-      <a href="https://github.com/Tehan-Hewage/Clean_Ops">
-        <img src="https://img.shields.io/badge/View%20Repository-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View CleanOPS repository" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Tehan-Hewage/GSMArena-data-scrapper">GSMArena Explorer</a></h3>
-      <p>A React/Tailwind web app for browsing GSMArena phone data including brands, devices, specs, and comparisons.</p>
-      <p>Powered by a lightweight Node/Express scraper API using Cheerio and Netlify Functions.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
         <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+        <img src="https://img.shields.io/badge/Gemini-886FBF?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+        <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=111111" alt="Hugging Face" />
       </p>
-      <a href="https://github.com/Tehan-Hewage/GSMArena-data-scrapper">
-        <img src="https://img.shields.io/badge/View%20Repository-00E7FF?style=for-the-badge&logo=github&logoColor=0D1117" alt="View GSMArena Explorer repository" />
+      <a href="https://github.com/Tehan-Hewage/GexaCanvas-AI">
+        <img src="https://img.shields.io/badge/View%20Repository-00E7FF?style=for-the-badge&logo=github&logoColor=0D1117" alt="View GexaCanvas AI repository" />
       </a>
     </td>
     <td width="50%" valign="top">
@@ -143,10 +115,54 @@ I'm **Tehan Hewage**, a developer, student, and tech enthusiast currently pursui
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Tehan-Hewage/Clean_Ops">CleanOPS</a></h3>
+      <p>A cleaning operations management system for HR teams, supervisors, and cleaners.</p>
+      <p>Features role-based dashboards, job scheduling, checklist execution, geofenced clock-in/out, break tracking, supervisor approvals, payroll exports, offline-first PWA support, Firebase Auth, and Firestore.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111" alt="Firebase" />
+      </p>
+      <a href="https://github.com/Tehan-Hewage/Clean_Ops">
+        <img src="https://img.shields.io/badge/View%20Repository-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View CleanOPS repository" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Tehan-Hewage/SL-FARMER">SL-FARMER</a></h3>
+      <p>A modern responsive Sri Lankan produce website for premium farm products including pineapple, ginger, cinnamon, and peppers.</p>
+      <p>Features dark mode, product showcase, availability status, gallery, EmailJS contact form, WhatsApp integration, SEO metadata, sitemap, and an admin dashboard.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
+        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+      </p>
+      <a href="https://github.com/Tehan-Hewage/SL-FARMER">
+        <img src="https://img.shields.io/badge/View%20Repository-00E7FF?style=for-the-badge&logo=github&logoColor=0D1117" alt="View SL-FARMER repository" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Tehan-Hewage/GSMArena-data-scrapper">GSMArena Explorer</a></h3>
+      <p>A React/Tailwind web app for browsing GSMArena phone data including brands, devices, specs, and comparisons.</p>
+      <p>Powered by a lightweight Node/Express scraper API using Cheerio and Netlify Functions.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+      </p>
+      <a href="https://github.com/Tehan-Hewage/GSMArena-data-scrapper">
+        <img src="https://img.shields.io/badge/View%20Repository-00E7FF?style=for-the-badge&logo=github&logoColor=0D1117" alt="View GSMArena Explorer repository" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
       <h3>Project Direction</h3>
       <p>I build projects that combine practical workflows, clean interfaces, automation, and reliable architecture.</p>
-      <p>Current focus areas include full-stack systems, PWA experiences, Linux tooling, cybersecurity learning, and developer-friendly documentation.</p>
+      <p>Current focus areas include full-stack AI tools, PWA experiences, Linux tooling, cybersecurity learning, and developer-friendly documentation.</p>
       <a href="https://github.com/Tehan-Hewage?tab=repositories">
         <img src="https://img.shields.io/badge/Explore%20More%20Repos-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore more repositories" />
       </a>
@@ -200,7 +216,7 @@ https://raw.githubusercontent.com/Tehan-Hewage/Tehan-Hewage/output/github-contri
   <tr>
     <td width="33%" valign="top">
       <h3>Full Stack</h3>
-      <p>Next.js, React, TypeScript, Supabase, Firebase, API design, and production workflows.</p>
+      <p>Next.js, React, TypeScript, Supabase, Firebase, API design, AI integrations, and production workflows.</p>
     </td>
     <td width="33%" valign="top">
       <h3>Systems & Security</h3>
