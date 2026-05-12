@@ -250,6 +250,42 @@ const modalContent = document.getElementById('modal-content');
 
 // Project data mapping
 const projectData = {
+  gexacanvas: {
+    title: "GexaCanvas AI",
+    category: "Full Stack AI",
+    image: "images/gexacanvas-logo.png",
+    description: "Full-stack AI chat and image-generation application with Supabase authentication, saved conversations, pinned chats, Gemini replies, Hugging Face image generation, markdown responses, and a premium dark Gexa Aurora interface.",
+    code: "https://github.com/Tehan-Hewage/GexaCanvas-AI",
+    features: [
+      "Supabase authentication for signup and login",
+      "Saved conversations persisted with Supabase",
+      "Pinned and deleted chat management",
+      "Gemini AI replies with markdown rendering",
+      "Text-to-image generation through Hugging Face",
+      "Generated image storage with Supabase Storage",
+      "Dark glassmorphism Gexa Aurora UI",
+      "Responsive layout for mobile, tablet, and desktop"
+    ],
+    technologies: ["React", "Vite", "Node.js", "Express", "Supabase", "Gemini", "Hugging Face"]
+  },
+  linknook: {
+    title: "LinkNook",
+    category: "Live SaaS",
+    image: "images/linknook-logo.png",
+    description: "Live Linktree-style mini-profile and link-page builder with customizable public pages, themes, dashboard controls, design editor, hero layouts, wallpapers, text controls, button styles, color controls, and preview cards.",
+    demo: "https://linknook.online/",
+    features: [
+      "Custom public mini-profile pages",
+      "Theme, layout, wallpaper, and hero controls",
+      "Design editor with text and color controls",
+      "Button style customization",
+      "Dashboard for managing public pages",
+      "Preview cards for faster editing",
+      "Responsive modern UI",
+      "Supabase-backed app architecture"
+    ],
+    technologies: ["React", "Next.js", "Tailwind CSS", "Supabase", "UI/UX"]
+  },
   whatsappbot: {
     title: "Multi-Agent WhatsApp Bot Assistant",
     category: "Ongoing Project",
