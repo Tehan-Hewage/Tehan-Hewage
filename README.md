@@ -59,23 +59,48 @@ I'm **Tehan Hewage**, a developer, student, and tech enthusiast currently pursui
 ## Tech Stack 🛠️
 
 <div align="center">
-  <h3>Languages, Frameworks & Tools</h3>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,html,css,tailwind,firebase,git,linux,fastapi,supabase,nodejs,express&theme=dark&perline=8" alt="Python, JavaScript, TypeScript, React, Next.js, HTML, CSS, TailwindCSS, Firebase, Git, Linux, FastAPI, Supabase, Node.js, Express" />
+  <h3>Core Stack</h3>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,vite,html,css,tailwind,nodejs,express,fastapi,supabase,firebase,git,linux,vercel,netlify&theme=dark&perline=9" alt="Python, JavaScript, TypeScript, React, Next.js, Vite, HTML, CSS, TailwindCSS, Node.js, Express, FastAPI, Supabase, Firebase, Git, Linux, Vercel, Netlify" />
 </div>
 
 <br />
 
 <div align="center">
+  <h3>Languages & Frontend</h3>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+</div>
+
+<br />
+
+<div align="center">
+  <h3>Backend, Data & AI</h3>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Supabase%20Auth-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase Auth" />
+  <img src="https://img.shields.io/badge/Supabase%20Storage-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase Storage" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=111111" alt="Firestore" />
+  <img src="https://img.shields.io/badge/Gemini-886FBF?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=111111" alt="Hugging Face" />
+</div>
+
+<br />
+
+<div align="center">
+  <h3>Tools & Workflow</h3>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA" />
+  <img src="https://img.shields.io/badge/Automation-0D1117?style=flat-square&logo=githubactions&logoColor=00E7FF" alt="Automation" />
 </div>
 
 ## Featured Projects ⚡
