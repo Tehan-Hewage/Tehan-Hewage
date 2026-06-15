@@ -19,7 +19,7 @@ const PROJECTS_DATA: Project[] = [
     id: "gexacanvas",
     title: "GexaCanvas AI",
     category: "Full Stack AI",
-    image: "images/gexacanvas-logo.png",
+    image: "/images/gexacanvas-logo.png",
     description: "Full-stack AI chat and image-generation application with Supabase authentication, saved conversations, pinned chats, Gemini replies, Hugging Face image generation, markdown responses, and a premium dark Gexa Aurora interface.",
     code: "https://github.com/Tehan-Hewage/GexaCanvas-AI",
     features: [
@@ -38,7 +38,7 @@ const PROJECTS_DATA: Project[] = [
     id: "linknook",
     title: "LinkNook",
     category: "Live SaaS",
-    image: "images/linknook-logo.png",
+    image: "/images/linknook-logo.png",
     description: "Live Linktree-style mini-profile and link-page builder with customizable public pages, themes, dashboard controls, design editor, hero layouts, wallpapers, text controls, button styles, color controls, and preview cards.",
     demo: "https://linknook.online/",
     features: [
@@ -57,7 +57,7 @@ const PROJECTS_DATA: Project[] = [
     id: "whatsappbot",
     title: "Multi-Agent WhatsApp Bot Assistant",
     category: "Ongoing Project",
-    image: "images/whatsapp-bot.svg",
+    image: "/images/whatsapp-bot.svg",
     description: "Ongoing research and development project for SLIIT City University to automate student support through a multi-agent WhatsApp assistant. The system detects user intent and routes each query to the most relevant specialist agent.",
     features: [
       "Purpose classification and routing to expert agents",
@@ -75,7 +75,7 @@ const PROJECTS_DATA: Project[] = [
     id: "gsmarena",
     title: "GSMArena Explorer",
     category: "Full Stack",
-    image: "images/gsmarena.png",
+    image: "/images/gsmarena.png",
     description: "React/Tailwind interface for browsing GSMArena brands, devices, specs, and comparisons backed by a lightweight Express scraper API that fetches GSMArena HTML directly.",
     demo: "https://gsamarena-data-scrapper.netlify.app/",
     features: [
@@ -94,7 +94,7 @@ const PROJECTS_DATA: Project[] = [
     id: "opsel",
     title: "Opsel Mobile City",
     category: "Frontend Prototype",
-    image: "images/opsel.png",
+    image: "/images/opsel.png",
     description: "High-fidelity e-commerce prototype for a premium mobile phone retail store with glassmorphism UI, micro-interactions, and a complete page set.",
     demo: "https://opselmobilecity.netlify.app/",
     features: [
@@ -113,7 +113,7 @@ const PROJECTS_DATA: Project[] = [
     id: "bananamath",
     title: "BananaMath Adventure",
     category: "Web Game",
-    image: "images/bananamath.png",
+    image: "/images/bananamath.png",
     description: "Browser-based math puzzle/adventure game with progressive levels, boss stages, and multiple game modes. Features daily puzzles, coins currency with power-up shop, 20 achievement badges, level goals, and retry mechanics. Includes global leaderboards and user profiles backed by Firebase.",
     demo: "https://bananamath-adventure.netlify.app/",
     features: [
@@ -133,7 +133,7 @@ const PROJECTS_DATA: Project[] = [
     id: "rainforest",
     title: "RainForest Tea",
     category: "Desktop App",
-    image: "images/rainforest.jpeg",
+    image: "/images/rainforest.jpeg",
     description: "All-in-one tea management system for products, orders, inventory, suppliers, customers, and equipment maintenance with full CRUD operations. Features MySQL data model with validation, JavaFX UI with styled tables/forms, and email notifications for low stock and maintenance reminders.",
     features: [
       "Full CRUD operations",
@@ -151,7 +151,7 @@ const PROJECTS_DATA: Project[] = [
     id: "quiz",
     title: "Quiz App",
     category: "Android App",
-    image: "images/quiz app.jpg",
+    image: "/images/quiz app.jpg",
     description: "Trivia app that fetches questions from a remote API and renders them in a clean Android UI. Features scoring/answer validation, end-of-quiz summary, and Firebase integration for authentication and score storage.",
     features: [
       "REST API integration",
@@ -390,7 +390,7 @@ export function App() {
       <header className="fixed top-0 w-full py-4 px-5 lg:px-20 bg-black/80 backdrop-blur-lg z-50 border-b border-cyan-500/10">
         <nav className="max-w-7xl mx-auto flex justify-between items-center h-10">
           <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home') }} className="flex items-center h-full">
-            <img src="images/logo.png" alt="Tehan Hewage Logo" className="h-20 w-auto hover:opacity-80 transition-opacity" />
+            <img src="/images/logo.png" alt="Tehan Hewage Logo" className="h-20 w-auto hover:opacity-80 transition-opacity" />
           </a>
 
           {/* Desktop Nav */}
@@ -775,7 +775,7 @@ export function App() {
       <footer className="py-12 px-5 border-t border-zinc-900 bg-black">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
-            <img src="images/logo.png" alt="Tehan Logo" className="h-14 w-auto" />
+            <img src="/images/logo.png" alt="Tehan Logo" className="h-14 w-auto" />
             <span className="text-zinc-500 text-sm font-medium">
               &copy; {new Date().getFullYear()} Tehan Hewage. All rights reserved.
             </span>

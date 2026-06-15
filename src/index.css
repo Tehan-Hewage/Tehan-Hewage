@@ -800,7 +800,7 @@ a[href^="#"]:not(.nav-link):hover::before {
 .snowflake {
   position: absolute;
   top: -12px;
-  background-image: url("images/yourflake.png");
+  background-image: url("/images/yourflake.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 9999px;
