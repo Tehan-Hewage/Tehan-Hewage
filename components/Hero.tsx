@@ -98,7 +98,7 @@ export function Hero() {
                   Get In Touch
                 </motion.a>
                 <motion.a 
-                  href="Curriculum Vitae.pdf" 
+                  href="/Curriculum Vitae.pdf" 
                   download 
                   whileHover={{ scale: 1.03, x: 2 }}
                   whileTap={{ scale: 0.98 }}
