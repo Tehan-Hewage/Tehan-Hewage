@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { useLenis } from 'lenis/react'
 import { Hero } from '@/components/Hero'
 
 // Type definition for projects
@@ -167,6 +168,7 @@ const PROJECTS_DATA: Project[] = [
 ]
 
 export function App() {
+  const lenis = useLenis()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
@@ -358,10 +360,15 @@ export function App() {
   }
 
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    if (lenis) {
+      lenis.scrollTo(`#${id}`, { duration: 1.2 })
       setMobileMenuOpen(false)
+    } else {
+      const element = document.getElementById(id)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        setMobileMenuOpen(false)
+      }
     }
   }
 
@@ -378,7 +385,13 @@ export function App() {
 
       {/* Back to Top */}
       <button 
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        onClick={() => {
+          if (lenis) {
+            lenis.scrollTo(0, { duration: 1.2 })
+          } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }
+        }}
         className={`fixed bottom-8 right-8 bg-gradient-to-r from-cyan-500 to-cyan-600 text-black p-4 rounded-full shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-110 z-50 ${
           showBackToTop ? 'opacity-100 scale-100' : 'opacity-0 scale-75 pointer-events-none'
         }`}

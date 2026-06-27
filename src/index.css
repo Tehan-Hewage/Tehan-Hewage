@@ -443,7 +443,7 @@ textarea:focus {
 
 /* Smooth Scrolling */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto !important;
 }
 
 /* Enhanced Navigation Links */
