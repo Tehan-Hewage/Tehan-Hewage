@@ -31,7 +31,7 @@
 
   <style>
     .title-text {
-      font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+      font-family: system-ui, -apple-system, sans-serif;
       font-weight: 900;
       font-size: 46px;
       letter-spacing: 3px;
@@ -39,7 +39,7 @@
     }
 
     .subtitle-text {
-      font-family: 'Fira Code', 'Courier New', monospace;
+      font-family: monospace;
       font-weight: 700;
       font-size: 14px;
       letter-spacing: 2px;
@@ -48,9 +48,9 @@
     }
 
     @keyframes pulseGlow {
-      0%, 100% { opacity: 0.4; transform: scale(1); }
+      0%, 100% { opacity: 0.4; }
       50% {
- opacity: 0.8; transform: scale(1.05); }
+ opacity: 0.8; }
     }
 
     @keyframes floatWave {
@@ -60,12 +60,10 @@
 
     .glowing-orb-1 {
       animation: pulseGlow 6s infinite ease-in-out;
-      transform-origin: 200px 100px;
     }
 
     .glowing-orb-2 {
       animation: pulseGlow 8s infinite ease-in-out 1s;
-      transform-origin: 600px 100px;
     }
 
     .animated-wave {
@@ -78,17 +76,16 @@
   <circle class="glowing-orb-1" cx="180" cy="80" r="120" fill="#00E7FF" opacity="0.15" filter="url(#cyanGlow)" />
   <circle class="glowing-orb-2" cx="620" cy="110" r="140" fill="#7C3AED" opacity="0.2" filter="url(#purpleGlow)" />
 
-  <path d="M0 40 H400 M0 90 H800 M0 140 H800 M0 190 H800" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1" />
+  <path d="M0 40 H800 M0 90 H800 M0 140 H800 M0 190 H800" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1" />
   <path d="M160 0 V220 M320 0 V220 M480 0 V220 M640 0 V220" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1" />
 
   <g transform="translate(400, 100)" text-anchor="middle">
     <text class="title-text" x="0" y="0" fill="url(#cyanPurpleText)" opacity="0.3" filter="url(#cyanGlow)">TEHAN HEWAGE</text>
     <text class="title-text" x="0" y="0">TEHAN HEWAGE</text>
-    <text class="subtitle-text" x="0" y="38">SOFTWARE ENGINEER   FIRST CLASS HONOURS   AI & amp; FULL STACK</text>
+    <text class="subtitle-text" x="0" y="38">SOFTWARE ENGINEER - FIRST CLASS HONOURS - AI &amp; FULL STACK</text>
   </g>
-
-  <g class="animated-wave">
-    <path d="M0 0,185 C 150,165 300,205 450,180 C 600,155 700,195 800,185 L 800,220 L 0,220 Z" fill="url(#waveGrad)" opacity="0.3" />
-    <path d="M 0,195 C 200,180 350,210 500,190 C 650,170 720,205 800,195 L 800,220 L 0,220 Z" fill="url(#cyanPurpleText)" opacity="0.5" />
+	 <g class="animated-wave">
+     <path d="M 0,185 C 150,165 300,205 450,180 C 600,155 700,195 800,185 L 800 220 L 0 220 Z" fill="url(#waveGrad)" opacity="0.3" />
+    "path d="M 0,195 C 200,180 350,210 500,190 C 650,170 720,205 800,195 L 800,220 L 0,220 Z" fill="url(#cyanPurpleText)" opacity="0.5" />
   </g>
 </svg>

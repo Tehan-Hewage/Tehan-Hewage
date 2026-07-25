@@ -6,7 +6,7 @@
 
 <!-- ANIMATED CUSTOM SVG BANNER -->
 
-  <img width="100%" src="https://raw.githubusercontent.com/Tehan-Hewage/Tehan-Hewage/main/banner.svg" alt="Tehan Hewage Profile Banner" />
+  <img width="100%" src="./banner.svg" alt="Tehan Hewage Profile Banner" />
 
   <br/><br/>
 
