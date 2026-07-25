@@ -1,6 +1,4 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ██████████████████████   TEHAN HEWAGE — GITHUB PROFILE   ████████████████████ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ============================= TEHAN HEWAGE - GITHUB PROFILE ============================= -->
 
 <div align="center">
 
@@ -10,9 +8,7 @@
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━  TYPING ANIMATION  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00E7FF&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=50&lines=🎓+BSc+(Hons)+SE+—+First+Class+Honours;🤖+Full-Stack+Dev+%26+AI+Systems+Integrator;🚀+Kavi+AI+·+LinkNook+·+GexaCanvas+Studio;⚡+React+·+TypeScript+·+Node.js+·+Python+·+Java" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00E7FF&center=true&vCenter=true&width=750&height=45&lines=BSc+(Hons)+Software+Engineering+-+First+Class+Honours;Full-Stack+Developer+%26+AI+Systems+Integrator;Kavi+AI+%7C+LinkNook+%7C+GexaCanvas+AI+Studio;React+%7C+TypeScript+%7C+Node.js+%7C+Python+%7C+Java" alt="Typing SVG" />
 
 <br/>
 
@@ -46,7 +42,7 @@
 
 > *"Transforming complex ideas into clean, intelligent, user-centric software."*
 
-I'm **Tehan Hewage** — a **Software Engineering Graduate** with **First Class Honours** from SLIIT CITY UNI. I design and ship full-stack web applications, AI-integrated systems, mobile apps, and desktop tools.
+I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Honours** from SLIIT CITY UNI. I design and ship full-stack web applications, AI-integrated systems, mobile apps, and desktop tools.
 
 <table>
 <tr>
@@ -171,7 +167,7 @@ I'm **Tehan Hewage** — a **Software Engineering Graduate** with **First Class 
 
 > Multilingual AI shopping assistant for **Kapruka** powered by **Model Context Protocol (MCP)**
 
-- 🔗 Live Kapruka MCP server integration for catalog search
+- �- Live Kapruka MCP server integration for catalog search
 - 📦 Real-time delivery fee quotes & 60-min secure checkout links
 - 🌍 Culturally-tailored, warm Sri Lankan conversational tone
 
@@ -210,7 +206,7 @@ I'm **Tehan Hewage** — a **Software Engineering Graduate** with **First Class 
 
 - 🎨 Full design editor: themes, wallpapers, hero layouts & button styles
 - 📊 User dashboard + Supabase-backed architecture
-- 🔗 Shareable custom public mini-profiles
+- �- Shareable custom public mini-profiles
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -376,18 +372,18 @@ Native **Android trivia app** built with Java
 <div align="center">
 
 <!-- Activity Graph -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Tehan-Hewage&theme=react-dark&hide_border=true&bg_color=0D1117&color=00E7FF&line=7C3AED&point=00E7FF&area=true&area_color=7C3AED" alt="Contribution Graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Tehan-Hewage&theme=react-dark&hide_border=true&bg_color=0D1117&color=00E7FF&line=7C3AED&point=00E7FF&area=true" alt="Contribution Graph" />
 
 <br/><br/>
 
 <!-- GitHub Stats + Streak side by side -->
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Tehan-Hewage&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E7FF&icon_color=7C3AED&text_color=FFFFFF&ring_color=00E7FF" alt="GitHub Stats" />
-<img height="180" src="https://streak-stats.demolab.com?user=Tehan-Hewage&theme=tokyonight&hide_border=true&background=0D1117&ring=00E7FF&fire=7C3AED&currStreakLabel=00E7FF&sideLabels=FFFFFF" alt="GitHub Streak" />
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=Tehan-Hewage&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E7FF&icon_color=7C3AED&text_color=FFFFFF&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+<img height="175" src="https://streak-stats.demolab.com?user=Tehan-Hewage&theme=tokyonight&hide_border=true&background=0D1117&ring=00E7FF&fire=7C3AED&currStreakLabel=00E7FF" alt="GitHub Streak" />
 
 <br/><br/>
 
 <!-- Top Languages -->
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tehan-Hewage&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E7FF&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tehan-Hewage&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E7FF&text_color=FFFFFF&langs_count=8&hide=html" alt="Top Languages" />
 
 <br/><br/>
 
@@ -403,7 +399,7 @@ Native **Android trivia app** built with Java
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Tehan-Hewage&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" alt="GitHub Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=Tehan-Hewage&theme=tokyonight&no-frame=true&margin-w=10&row=1&column=6" alt="GitHub Trophies" />
 
 </div>
 
