@@ -4,9 +4,9 @@
 
 <div align="center">
 
-<!-- ANIMATED CUSTOM SVG BANNER -->
+<!-- HEADER BANNER -->
 
-  ![Tehan Hewage Profile Banner](banner.svg)
+  <img width="100%" src="banner.png" alt="Tehan Hewage Profile Banner" />
 
   <br/><br/>
 
