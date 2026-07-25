@@ -1,38 +1,42 @@
-<!-- ============================= TEHAN HEWAGE - GITHUB PROFILE ============================= -->
+<!-- =============================================================================== -->
+<!-- TEHAN HEWAGE - GITHUB PROFILE -->
+<!-- =============================================================================== -->
 
 <div align="center">
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━  ANIMATED HEADER BANNER  ━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ANIMATED HEADER BANNER -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Tehan%20Hewage&fontSize=60&fontColor=fff&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20Systems%20%7C%20First%20Class%20Honours&descSize=18&descAlignY=60&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:00E7FF,100:7C3AED&height=210&section=header&text=Tehan%20Hewage&fontSize=56&fontColor=FFFFFF&fontAlignY=38&desc=Software%20Engineer%20%7C%20First%20Class%20Honours%20%7C%20AI%20%26%20Full%20Stack&descSize=18&descAlignY=60&animation=fadeIn" alt="Tehan Hewage Profile Banner" />
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━  TYPING ANIMATION  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- TYPING ANIMATION -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00E7FF&center=true&vCenter=true&width=750&height=45&lines=BSc+(Hons)+Software+Engineering+-+First+Class+Honours;Full-Stack+Developer+%26+AI+Systems+Integrator;Kavi+AI+%7C+LinkNook+%7C+GexaCanvas+AI+Studio;React+%7C+TypeScript+%7C+Node.js+%7C+Python+%7C+Java" alt="Typing SVG" />
+<a href="https://github.com/Tehan-Hewage">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&duration=2800&pause=900&color=00E7FF&center=true&vCenter=true&width=750&height=45&lines=BSc+(Hons)+Software+Engineering+-+First+Class+Honours;Full-Stack+Developer+%26+AI+Systems+Integrator;Building+Kavi+AI%2C+LinkNook%2C+GexaCanvas+%26+WhatsApp+Bot;Proficient+in+React%2C+TypeScript%2C+Node.js%2C+Python%2C+Java" alt="Typing Tagline" />
+</a>
 
 <br/>
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━  STATUS BADGES  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- STATUS BADGES -->
 
-<img src="https://img.shields.io/badge/🏆_First_Class_Honours-BSc_(Hons)_SE-00E7FF?style=for-the-badge&labelColor=0D1117" alt="First Class Honours" />
-<img src="https://img.shields.io/badge/🎓_SLIIT_CITY_UNI-Software_Engineering-7C3AED?style=for-the-badge&labelColor=0D1117" alt="SLIIT City Uni" />
-<img src="https://img.shields.io/badge/🌍_Open_Source-Collaborator-00C853?style=for-the-badge&labelColor=0D1117" alt="Open Source" />
+<img src="https://img.shields.io/badge/First_Class_Honours-BSc_(Hons)_SE-00E7FF?style=for-the-badge&logo=academic&logoColor=0D1117&labelColor=0D1117" alt="First Class Honours" />
+<img src="https://img.shields.io/badge/SLIIT_CITY_UNI-Software_Engineering-7C3AED?style=for-the-badge&logo=academia&logoColor=white&labelColor=0D1117" alt="SLIIT City Uni" />
+<img src="https://img.shields.io/badge/Open_Source-Collaborator-00C853?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Open Source" />
 
 <br/><br/>
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━  SOCIAL CONNECT LINKS  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- SOCIAL CONNECT LINKS -->
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-tehanhewage.netlify.app-00E7FF?style=for-the-badge&logoColor=0D1117)](https://tehanhewage.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-tehanhewage.netlify.app-00E7FF?style=for-the-badge&logo=netlify&logoColor=0D1117)](https://tehanhewage.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tehan-hewage-677563373)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tehanhewage25@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tehanhewage25@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_.tehnz._/)
 
 <br/>
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━  PROFILE VIEW COUNTER  ━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- PROFILE VIEW COUNTER -->
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Tehan-Hewage&style=for-the-badge&color=00E7FF&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/Tehan-Hewage?style=for-the-badge&color=7C3AED&labelColor=0D1117&label=FOLLOWERS)
+![GitHub Followers](https://img.shields.io/github/followers/Tehan-Hewage?style=for-the-badge&color=7C3AED&labelColor=0D1117&label=FOLLOWERS)
 
 </div>
 
@@ -50,25 +54,25 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 
 ### 💼 Work Experience
 
-**Finance & Digital Marketing Intern**
-*Routes to Ceylon (Pvt) Ltd* · `Jul 2025 – Oct 2025`
+**Finance & Digital Marketing Intern**  
+*Routes to Ceylon (Pvt) Ltd* · `Jul 2025 - Oct 2025`
 
 - ⚡ Coordinated **15+ daily financial tasks**, reducing processing time by **20%**
 - 🎨 Designed creative content for digital marketing campaigns
-- 📦 Led the **Guest Envelope design project** — boosted quality & cut cycle time
+- 📦 Led the **Guest Envelope design project** - boosted quality & cut cycle time
 - 🖥️ Delivered IT support to staff with fast 24-hour resolution
 - 🏆 Earned multiple commendations for diligence & professionalism
 
 </td>
 <td width="50%" valign="top">
 
-### 🎓 Education
+### 🎓 Education Credentials
 
 | Credential | Institution | Year |
 |---|---|---|
-| **BSc (Hons) SE** ⭐ *First Class* | SLIIT CITY UNI | 2025–2026 |
-| **HNDIT** | SLIIT CITY UNI | 2023–2025 |
-| **FCIT** | SLIIT Academy | 2022–2023 |
+| **BSc (Hons) SE** ⭐ *First Class* | SLIIT CITY UNI | 2025-2026 |
+| **HNDIT** | SLIIT CITY UNI | 2023-2025 |
+| **FCIT** | SLIIT Academy | 2022-2023 |
 
 ### 🌍 Languages
 `English` · `Sinhala` *(both Professional)*
@@ -87,7 +91,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 <div align="center">
 
 <!-- Skill Icons Grid -->
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,python,nodejs,express,tailwind,supabase,firebase,vite,fastapi,java,mysql,html,css,git,linux,androidstudio,postman,vercel,netlify&theme=dark&perline=11" />
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,python,nodejs,express,tailwind,supabase,firebase,vite,fastapi,java,mysql,html,css,git,linux,androidstudio,postman,vercel,netlify&theme=dark&perline=11" alt="Tech Stack Grid" />
 
 </div>
 
@@ -95,7 +99,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 
 <div align="center">
 
-**Languages**
+**Languages**  
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -111,7 +115,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 
 <div align="center">
 
-**Frontend & UI**
+**Frontend & UI**  
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
@@ -125,7 +129,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 
 <div align="center">
 
-**Backend, Cloud & AI**
+**Backend, Cloud & AI**  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -134,7 +138,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-886FBF?style=flat-square&logo=googlegemini&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![MCP](https://img.shields.io/badge/MCP_Protocol-0D1117?style=flat-square&logo=anthropic&logoColor=00E7FF)
+![MCP Protocol](https://img.shields.io/badge/MCP_Protocol-0D1117?style=flat-square&logo=anthropic&logoColor=00E7FF)
 
 </div>
 
@@ -142,7 +146,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 
 <div align="center">
 
-**Tools & Platforms**
+**Tools & Platforms**  
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
@@ -163,11 +167,11 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 <tr>
 <td width="50%" valign="top">
 
-#### 🤖 [Kavi (කවි) — AI Shopping Agent](https://github.com/Tehan-Hewage/kavi)
+#### 🤖 [Kavi (කවි) - AI Shopping Agent](https://github.com/Tehan-Hewage/kavi)
 
 > Multilingual AI shopping assistant for **Kapruka** powered by **Model Context Protocol (MCP)**
 
-- �- Live Kapruka MCP server integration for catalog search
+- 🔗 Live Kapruka MCP server integration for catalog search
 - 📦 Real-time delivery fee quotes & 60-min secure checkout links
 - 🌍 Culturally-tailored, warm Sri Lankan conversational tone
 
@@ -186,7 +190,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 
 - 💬 Gemini AI chat with full markdown rendering
 - 🖼️ Text-to-image via Hugging Face API
-- 🔐 Supabase Auth — saved, pinned & deleted chats
+- 🔐 Supabase Auth - saved, pinned & deleted chats
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
@@ -200,20 +204,20 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 <tr>
 <td width="50%" valign="top">
 
-#### 🌐 [LinkNook — Live SaaS](https://linknook.online/)
+#### 🌐 [LinkNook - Live SaaS](https://linknook.online/)
 
-> Linktree-style **mini-profile builder SaaS** — fully live at linknook.online
+> Linktree-style **mini-profile builder SaaS** - fully live at linknook.online
 
 - 🎨 Full design editor: themes, wallpapers, hero layouts & button styles
 - 📊 User dashboard + Supabase-backed architecture
-- �- Shareable custom public mini-profiles
+- 🔗 Shareable custom public mini-profiles
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-linknook.online-00C853?style=for-the-badge)](https://linknook.online/)
+[![Live Site](https://img.shields.io/badge/Live_Site-linknook.online-00C853?style=for-the-badge)](https://linknook.online/)
 
 </td>
 <td width="50%" valign="top">
@@ -222,7 +226,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 
 > Student support system for **SLIIT City University** using multi-agent AI routing
 
-- 🧠 Intent classification → specialist agent routing
+- 🧠 Intent classification -> specialist agent routing
 - 📚 Finance · Academic · Student Affairs agents
 - 📱 WhatsApp Cloud API + Firebase Firestore backend
 
@@ -260,13 +264,13 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 </td>
 <td width="50%" valign="top">
 
-#### 🧹 [CleanOPS — Operations System](https://github.com/Tehan-Hewage/Clean_Ops)
+#### 🧹 [CleanOPS - Operations System](https://github.com/Tehan-Hewage/Clean_Ops)
 
 > Cleaning ops management for HR teams, supervisors & field workers
 
 - 📍 Geofenced clock-in/out, checklists & break tracking
 - 💰 Payroll exports & supervisor approval flows
-- 📶 Offline-first PWA — works without internet
+- 📶 Offline-first PWA - works without internet
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -281,7 +285,7 @@ I'm **Tehan Hewage** - a **Software Engineering Graduate** with **First Class Ho
 
 #### 📊 [GSMArena Explorer](https://github.com/Tehan-Hewage/GSMArena-data-scrapper)
 
-> Browse phone specs & comparisons from GSMArena — no API key needed
+> Browse phone specs & comparisons from GSMArena - no API key needed
 
 - 🕷️ Node/Express + Cheerio scraper with in-memory cache
 - 📄 Device catalog, brand listing & spec comparison pages
@@ -371,35 +375,25 @@ Native **Android trivia app** built with Java
 
 <div align="center">
 
-<!-- Activity Graph -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Tehan-Hewage&theme=react-dark&hide_border=true&bg_color=0D1117&color=00E7FF&line=7C3AED&point=00E7FF&area=true" alt="Contribution Graph" />
+<!-- Profile Summary Details Card -->
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tehan-Hewage&theme=github_dark" alt="GitHub Profile Details" />
 
 <br/><br/>
 
-<!-- GitHub Stats + Streak side by side -->
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Tehan-Hewage&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E7FF&icon_color=7C3AED&text_color=FFFFFF&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-<img height="175" src="https://streak-stats.demolab.com?user=Tehan-Hewage&theme=tokyonight&hide_border=true&background=0D1117&ring=00E7FF&fire=7C3AED&currStreakLabel=00E7FF" alt="GitHub Streak" />
-
-<br/><br/>
-
-<!-- Top Languages -->
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tehan-Hewage&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E7FF&text_color=FFFFFF&langs_count=8&hide=html" alt="Top Languages" />
-
-<br/><br/>
-
-<!-- Profile Summary Cards -->
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tehan-Hewage&theme=github_dark" alt="Repos Per Language" />
+<!-- Stats & Productive Time Cards -->
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tehan-Hewage&theme=github_dark" alt="GitHub Stats" />
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tehan-Hewage&theme=github_dark&utcOffset=5.5" alt="Productive Time" />
 
-</div>
+<br/><br/>
 
-<br/>
+<!-- Language Breakdown Cards -->
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tehan-Hewage&theme=github_dark" alt="Repos Per Language" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tehan-Hewage&theme=github_dark" alt="Most Commits Per Language" />
 
-### 🏆 GitHub Trophies
+<br/><br/>
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Tehan-Hewage&theme=tokyonight&no-frame=true&margin-w=10&row=1&column=6" alt="GitHub Trophies" />
+<!-- Commit Streak Stats -->
+<img width="65%" src="https://streak-stats.demolab.com?user=Tehan-Hewage&theme=tokyonight&hide_border=true&background=0D1117&ring=00E7FF&fire=7C3AED&currStreakLabel=00E7FF" alt="GitHub Streak" />
 
 </div>
 
@@ -429,9 +423,9 @@ Native **Android trivia app** built with Java
 
 <br/>
 
-[![Email](https://img.shields.io/badge/📧_Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tehanhewage25@gmail.com)
-[![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-00E7FF?style=for-the-badge&logo=netlify&logoColor=0D1117)](https://tehanhewage.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/💼_Connect_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tehan-hewage-677563373)
+[![Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tehanhewage25@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-00E7FF?style=for-the-badge&logo=netlify&logoColor=0D1117)](https://tehanhewage.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/Connect_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tehan-hewage-677563373)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tehan-Hewage)
 
 <br/>
@@ -440,4 +434,4 @@ Native **Android trivia app** built with Java
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:00E7FF,100:0D1117&height=120&section=footer" alt="Footer Wave" />
