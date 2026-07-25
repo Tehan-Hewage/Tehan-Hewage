@@ -4,15 +4,16 @@
 
 <div align="center">
 
-<!-- ANIMATED HEADER BANNER -->
+<!-- HEADER TITLE & TYPING ANIMATION -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:00E7FF,100:7C3AED&height=210&section=header&text=Tehan%20Hewage&fontSize=56&fontColor=FFFFFF&fontAlignY=38&desc=Software%20Engineer%20%7C%20First%20Class%20Honours%20%7C%20AI%20%26%20Full%20Stack&descSize=18&descAlignY=60&animation=fadeIn" alt="Tehan Hewage Profile Banner" />
+  <br />
+  <h1 align="center">⚡ TEHAN HEWAGE ⚡</h1>
+  <p align="center"><b>Software Engineering Graduate (First Class Honours) &bull; Full-Stack & AI Systems</b></p>
+  <br />
 
-<!-- TYPING ANIMATION -->
-
-<a href="https://github.com/Tehan-Hewage">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&duration=2800&pause=900&color=00E7FF&center=true&vCenter=true&width=750&height=45&lines=BSc+(Hons)+Software+Engineering+-+First+Class+Honours;Full-Stack+Developer+%26+AI+Systems+Integrator;Building+Kavi+AI%2C+LinkNook%2C+GexaCanvas+%26+WhatsApp+Bot;Proficient+in+React%2C+TypeScript%2C+Node.js%2C+Python%2C+Java" alt="Typing Tagline" />
-</a>
+  <a href="https://github.com/Tehan-Hewage">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=00E7FF&center=true&vCenter=true&width=800&height=45&lines=BSc+(Hons)+Software+Engineering+-+First+Class+Honours;Full-Stack+Developer+%26+AI+Systems+Integrator;Building+Kavi+AI%2C+LinkNook%2C+GexaCanvas+%26+WhatsApp+Bot;Proficient+in+React%2C+TypeScript%2C+Node.js%2C+Python%2C+Java" alt="Typing Tagline" />
+  </a>
 
 <br/>
 
@@ -432,6 +433,4 @@ Native **Android trivia app** built with Java
 
 <sub>⚡ <strong>Tehan Hewage</strong> · Software Engineering Graduate (First Class Honours) · SLIIT CITY UNI</sub>
 
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:00E7FF,100:0D1117&height=120&section=footer" alt="Footer Wave" />
+<hr />
