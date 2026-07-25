@@ -6,7 +6,7 @@
 
 <!-- ANIMATED CUSTOM SVG BANNER -->
 
-  <img width="100%" src="./banner.svg" alt="Tehan Hewage Profile Banner" />
+  ![Tehan Hewage Profile Banner](banner.svg)
 
   <br/><br/>
 
