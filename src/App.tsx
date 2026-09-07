@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { Routes, Route, Link, Navigate } from 'react-router-dom'
 import { useLenis } from 'lenis/react'
 import { Hero } from '@/components/Hero'
+import { GraphicDesignPage } from './pages/GraphicDesignPage'
 
 // Type definition for projects
 interface Project {
@@ -167,9 +169,26 @@ const PROJECTS_DATA: Project[] = [
   }
 ]
 
-export function App() {
+export function HomePage() {
   const lenis = useLenis()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  // Scroll to hash section on mount or route transition
+  useEffect(() => {
+    if (window.location.hash) {
+      const hashId = window.location.hash.replace('#', '')
+      setTimeout(() => {
+        const el = document.getElementById(hashId)
+        if (el) {
+          if (lenis) {
+            lenis.scrollTo(`#${hashId}`, { duration: 1.2 })
+          } else {
+            el.scrollIntoView({ behavior: 'smooth' })
+          }
+        }
+      }, 150)
+    }
+  }, [lenis])
   const [activeSection, setActiveSection] = useState('home')
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
   const [scrollProgress, setScrollProgress] = useState(0)
@@ -407,8 +426,8 @@ export function App() {
           </a>
 
           {/* Desktop Nav */}
-          <ul className="hidden md:flex gap-8 list-none">
-            {['home', 'about', 'skills', 'portfolio', 'contact'].map(section => (
+          <ul className="hidden md:flex gap-8 list-none items-center">
+            {['home', 'about', 'skills', 'portfolio'].map(section => (
               <li key={section}>
                 <a 
                   href={`#${section}`}
@@ -421,6 +440,25 @@ export function App() {
                 </a>
               </li>
             ))}
+            <li>
+              <Link 
+                to="/graphic-design"
+                className="nav-link text-sm capitalize font-medium transition-colors text-zinc-400 hover:text-cyan-400"
+              >
+                Designs
+              </Link>
+            </li>
+            <li>
+              <a 
+                href="#contact"
+                onClick={(e) => { e.preventDefault(); scrollToSection('contact') }}
+                className={`nav-link text-sm capitalize font-medium transition-colors ${
+                  activeSection === 'contact' ? 'text-cyan-400 font-semibold' : 'text-zinc-400 hover:text-cyan-400'
+                }`}
+              >
+                contact
+              </a>
+            </li>
           </ul>
 
           {/* Mobile Nav Button */}
@@ -443,7 +481,7 @@ export function App() {
           mobileMenuOpen ? 'block opacity-100' : 'hidden opacity-0'
         }`}>
           <ul className="flex flex-col p-5 gap-4">
-            {['home', 'about', 'skills', 'portfolio', 'contact'].map(section => (
+            {['home', 'about', 'skills', 'portfolio'].map(section => (
               <li key={section}>
                 <a 
                   href={`#${section}`}
@@ -456,6 +494,26 @@ export function App() {
                 </a>
               </li>
             ))}
+            <li>
+              <Link 
+                to="/graphic-design"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-base capitalize transition-colors text-zinc-400 hover:text-cyan-400"
+              >
+                Designs
+              </Link>
+            </li>
+            <li>
+              <a 
+                href="#contact"
+                onClick={(e) => { e.preventDefault(); scrollToSection('contact') }}
+                className={`text-base capitalize transition-colors ${
+                  activeSection === 'contact' ? 'text-cyan-400 font-semibold' : 'text-zinc-400 hover:text-cyan-400'
+                }`}
+              >
+                contact
+              </a>
+            </li>
           </ul>
         </div>
       </header>
@@ -671,6 +729,28 @@ export function App() {
             </p>
           </div>
 
+          {/* Graphic Design Showcase Spotlight Banner */}
+          <div className="mb-14 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-cyan-950/40 via-zinc-950 to-emerald-950/20 border border-cyan-500/30 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl relative overflow-hidden group">
+            <div className="absolute -right-10 -top-10 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none group-hover:bg-cyan-500/20 transition-colors" />
+            <div className="space-y-2 text-center md:text-left z-10">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-bold border border-cyan-500/25">
+                <i className="fas fa-palette text-[11px]"></i> Creative &amp; Visual Arts
+              </div>
+              <h3 className="text-2xl md:text-3xl font-extrabold text-white">
+                Looking for Graphic Design &amp; Branding?
+              </h3>
+              <p className="text-zinc-400 text-sm max-w-xl leading-relaxed">
+                Explore my dedicated visual arts portfolio featuring brand identities, high-voltage posters, social media ads, and sleek UI/UX mockups.
+              </p>
+            </div>
+            <Link
+              to="/graphic-design"
+              className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-cyan-400 to-cyan-500 text-black font-extrabold text-sm shadow-lg shadow-cyan-500/20 hover:scale-105 transition-all flex items-center gap-2 whitespace-nowrap z-10"
+            >
+              Explore Graphic Designs <i className="fas fa-arrow-right text-xs"></i>
+            </Link>
+          </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {PROJECTS_DATA.map(project => (
               <div 
@@ -787,11 +867,15 @@ export function App() {
       {/* Footer */}
       <footer className="py-12 px-5 border-t border-zinc-900 bg-black">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-4">
             <img src="/images/logo.png" alt="Tehan Logo" className="h-14 w-auto" />
             <span className="text-zinc-500 text-sm font-medium">
               &copy; {new Date().getFullYear()} Tehan Hewage. All rights reserved.
             </span>
+            <span className="hidden sm:inline text-zinc-700">&bull;</span>
+            <Link to="/graphic-design" className="text-xs text-cyan-400 hover:underline flex items-center gap-1">
+              <i className="fas fa-palette text-[10px]"></i> Graphic Design Portfolio
+            </Link>
           </div>
 
           <div className="flex gap-4">
@@ -896,6 +980,17 @@ export function App() {
         </div>
       )}
     </div>
+  )
+}
+
+export function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/graphic-design" element={<GraphicDesignPage />} />
+      <Route path="/designs" element={<GraphicDesignPage />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   )
 }
 
